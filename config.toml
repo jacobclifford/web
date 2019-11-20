@@ -1,42 +1,72 @@
-baseurl = "/"
-languageCode = "en-us"
-title = "test website nameinnn"
+baseurl = "https://ocrug.org/"
+title = "O R Users Group"
 theme = "hugo-lithium"
+languageCode = "en-us"
+# Site language. Available translations in the theme's `/i18n` directory.
+defaultContentLanguage = "en"
+# Enable comments by entering your Disqus shortname
+disqusShortname = "devcows"
+# Enable Google Analytics by entering your tracking code
 googleAnalytics = ""
-disqusShortname = ""
-ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
-[permalinks]
-    post = "/:year/:month/:day/:slug/"
+# Define the number of posts per page
+paginate = 10
+
+
+buildfuture = true
+
+[menu]
+
+# Main menu
 
 [[menu.main]]
-    name = "About"
-    url = "/about/"
+    name = "Home"
+    url  = "/"
+    weight = 1
+
 [[menu.main]]
+    name = "Blog"
+    url  = "/blog/"
+    weight = 2
+
+[[menu.main]]
+    name = "Code of Conduct"
+    identifier = "COC"
+    url  = "https://github.com/ocrug/hackathon-2019/blob/master/code-of-conduct.md"
+    weight = 4
+
+[[menu.main]]
+    name = "Contact"
+    url  = "/contact/"
+    weight = 3
+
+# Top bar social links menu
+
+[[menu.topbar]]
+    weight = 1
     name = "GitHub"
-    url = "https://github.com/rstudio/blogdown"
-[[menu.main]]
-    name = "Twitter"
-    url = "https://twitter.com/rstudio"
+    # url = "https://github.com/devcows/hugo-universal-theme"
+    url = "https://github.com/ocrug"
+    pre = "<i class='fa fa-2x fa-github'></i>"
 
-[params]
-    description = "A website built through Hugo and blogdown."
+# [[menu.topbar]]
+#     weight = 2
+#     name = "Facebook"
+#     url = "http://facebook.com"
+#     pre = "<i class='fa fa-2x fa-facebook'></i>"
 
-    # options for highlight.js (version, additional languages, and theme)
-    highlightjsVersion = "9.12.0"
-    highlightjsCDN = "//cdnjs.cloudflare.com/ajax/libs"
-    highlightjsLang = ["r", "yaml"]
-    highlightjsTheme = "github"
+[[menu.topbar]]
+    weight = 3
+    name = "Slack"
+    url = "https://ocrug.slack.com/"
+    # pre = "<i class='fa fa-2x fa-twitter'></i>"
+    pre = "<i class='fa fa-2x fa-slack'></i>"
 
-    MathJaxCDN = "//cdnjs.cloudflare.com/ajax/libs"
-    MathJaxVersion = "2.7.5"
 
-    # path to the favicon, under "static"
-    favicon = "favicon.ico"
+[[menu.topbar]]
+    weight = 4
+    name = "Email"
+    url = "mailto:orangecounty.rug@gmail.com"
+    pre = "<i class='fa fa-2x fa-envelope'></i>"
 
-    [params.logo]
-    url = "logo.png"
-    width = 50
-    height = 50
-    alt = "Logo"
 
