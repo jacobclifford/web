@@ -6,10 +6,19 @@
     <description>Recent content in Posts on O R Users Group</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 28 Aug 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 20 Nov 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://ocrug.org/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>testing</title>
+      <link>https://ocrug.org/post/testing/</link>
+      <pubDate>Wed, 20 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://ocrug.org/post/testing/</guid>
+      <description>this is just a test</description>
+    </item>
     
     <item>
       <title>Cancer Mutations Scores &amp; Reactivity in Shiny Apps</title>

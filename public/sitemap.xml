@@ -4,16 +4,31 @@
   
   <url>
     <loc>https://ocrug.org/blog/</loc>
-    <lastmod>2019-06-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ocrug.org/blog/integrating-react-js-and-shiny-and-uci-capstone/</loc>
-    <lastmod>2019-06-25T00:00:00+00:00</lastmod>
+    <lastmod>2019-11-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://ocrug.org/</loc>
+    <lastmod>2019-11-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ocrug.org/post/</loc>
+    <lastmod>2019-11-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ocrug.org/blog/test2/</loc>
+    <lastmod>2019-11-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ocrug.org/post/testing/</loc>
+    <lastmod>2019-11-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ocrug.org/blog/integrating-react-js-and-shiny-and-uci-capstone/</loc>
     <lastmod>2019-06-25T00:00:00+00:00</lastmod>
   </url>
   
@@ -84,11 +99,6 @@
   
   <url>
     <loc>https://ocrug.org/post/cancer-mutations-scores-rstudio-tune-up/</loc>
-    <lastmod>2018-08-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ocrug.org/post/</loc>
     <lastmod>2018-08-28T00:00:00+00:00</lastmod>
   </url>
   

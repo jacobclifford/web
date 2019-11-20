@@ -6,10 +6,28 @@
     <description>Recent content on O R Users Group</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 25 Jun 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 20 Nov 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://ocrug.org/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>test2</title>
+      <link>https://ocrug.org/blog/test2/</link>
+      <pubDate>Wed, 20 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://ocrug.org/blog/test2/</guid>
+      <description>this is a test</description>
+    </item>
+    
+    <item>
+      <title>testing</title>
+      <link>https://ocrug.org/post/testing/</link>
+      <pubDate>Wed, 20 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://ocrug.org/post/testing/</guid>
+      <description>this is just a test</description>
+    </item>
     
     <item>
       <title>Integrating React.js and Shiny, and UCI Capstone</title>
